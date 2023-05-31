@@ -10,13 +10,14 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  background-color: rgb(247, 246, 244);
 }
 
 .container{
-  background-color: rgb(240, 236, 231);
+  background-color:rgb(255, 255, 255);
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +47,7 @@ div input{
 }
 
 .btn-outline{
-  background-color: rgb(218, 208, 208);
+  background-color: rgb(217, 202, 202);
   color: black;
   border: none;
 }
@@ -55,7 +56,7 @@ div input{
   background-color: blue;
 }
 .btn-outline:hover{
-  background-color: white;
+  background-color: rgb(223, 211, 211);
 }
 
 .center h3{
